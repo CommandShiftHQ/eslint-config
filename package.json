@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-mcr-codes",
+  "version": "1.0.0",
+  "description": "eslint config for learning to code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint-find-unused-rules": "eslint-find-rules -u"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MCRcodes/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "javascript",
+    "eslintconfig",
+    "config",
+    "styleguide"
+  ],
+  "author": "Manchester Codes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MCRcodes/eslint-config/issues"
+  },
+  "homepage": "https://github.com/MCRcodes/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-find-rules": "^3.2.3",
+    "eslint-plugin-import": "^2.12.0"
+  }
+}
