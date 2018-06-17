@@ -1,17 +1,23 @@
 module.exports = {
   env: {
-    browser: true,
     node: true,
-    jest: true,
   },
-  extends: 'eslint:recommended',
-  parserOptions: {
-    sourceType: 'module',
-  },
-  rules: {
-    indent: ['error', 2],
-    'linebreak-style': ['error', 'unix'],
-    quotes: ['error', 'single'],
-    semi: ['error', 'always'],
-  },
+  extends: [
+    './rules/best-practices',
+    './rules/errors',
+    './rules/es6',
+    './rules/import',
+    './rules/node',
+    './rules/strict',
+    './rules/style',
+    './rules/variables',
+  ].map(require.resolve),
+  overrides: [
+    {
+      files: ['**/*.test.js'],
+      env: {
+        jest: true,
+      },
+    },
+  ],
 };
