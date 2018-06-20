@@ -20,6 +20,13 @@
     "styleguide"
   ],
   "author": "Manchester Codes",
+  "contributors": [
+    {
+      "name": "Michael Harrison",
+      "url": "https://twitter.com/mikeh91",
+      "email": "michael@mcr.codes"
+    }
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MCRcodes/eslint-config/issues"
@@ -28,10 +35,12 @@
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-find-rules": "^3.2.3",
-    "eslint-plugin-import": "^2.12.0"
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-react": "^7.9.1"
   },
   "peerDependencies": {
     "eslint": "^4.19.1",
-    "eslint-plugin-import": "^2.12.0"
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-react": "^7.9.1"
   }
 }
