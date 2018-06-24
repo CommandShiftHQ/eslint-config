@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mcr-codes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "eslint config for learning to code",
   "main": "index.js",
   "scripts": {
