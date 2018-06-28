@@ -3,6 +3,7 @@ module.exports = {
     node: true,
   },
   extends: [
+    './rules/babel',
     './rules/best-practices',
     './rules/errors',
     './rules/es6',

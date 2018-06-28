@@ -208,12 +208,8 @@ module.exports = {
     'multiline-ternary': ['off'],
 
     // require a capital letter for constructors
-    'new-cap': ['error', {
-      newIsCap: true,
-      newIsCapExceptions: [],
-      capIsNew: false,
-      capIsNewExceptions: ['Immutable.Map', 'Immutable.Set', 'Immutable.List'],
-    }],
+    // we use babel/new-cap instead
+    'new-cap': ['off'],
 
     // disallow the omission of parentheses when invoking a constructor with no arguments
     // https://eslint.org/docs/rules/new-parens
@@ -331,7 +327,8 @@ module.exports = {
     'nonblock-statement-body-position': ['error', 'beside', { overrides: {} }],
 
     // require padding inside curly braces
-    'object-curly-spacing': ['error', 'always'],
+    // we use babel/object-curly-spacing
+    'object-curly-spacing': ['off'],
 
     // enforce line breaks between braces
     // https://eslint.org/docs/rules/object-curly-newline
@@ -375,14 +372,16 @@ module.exports = {
     'quote-props': ['error', 'as-needed', { keywords: false, unnecessary: true, numbers: false }],
 
     // specify whether double or single quotes should be used
-    quotes: ['error', 'single', { avoidEscape: true }],
+    // we use babel/quotes
+    quotes: ['off'],
 
     // do not require jsdoc
     // https://eslint.org/docs/rules/require-jsdoc
     'require-jsdoc': 'off',
 
     // require or disallow use of semicolons instead of ASI
-    semi: ['error', 'always'],
+    // we use babe;/semi
+    semi: ['off'],
 
     // enforce spacing before and after semicolons
     'semi-spacing': ['error', { before: false, after: true }],

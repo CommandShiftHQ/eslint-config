@@ -237,7 +237,8 @@ module.exports = {
     'no-unmodified-loop-condition': 'off',
 
     // disallow usage of expressions in statement position
-    'no-unused-expressions': ['error'],
+    // we use babel/no-unused-expressions instead
+    'no-unused-expressions': ['off'],
 
     // disallow unused labels
     // https://eslint.org/docs/rules/no-unused-labels

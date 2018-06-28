@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-mcr-codes",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "eslint config for learning to code",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "eslint-find-unused-rules": "eslint-find-rules -u",
+    "rules": "eslint-find-rules -u",
     "lint": "eslint ."
   },
   "repository": {
@@ -33,13 +33,17 @@
   },
   "homepage": "https://github.com/MCRcodes/eslint-config#readme",
   "devDependencies": {
+    "babel-eslint": "^8.2.5",
     "eslint": "^4.19.1",
     "eslint-find-rules": "^3.2.3",
+    "eslint-plugin-babel": "^5.1.0",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-react": "^7.9.1"
   },
   "peerDependencies": {
+    "babel-eslint": "^8.2.5",
     "eslint": "^4.19.1",
+    "eslint-plugin-babel": "^5.1.0",
     "eslint-plugin-import": "^2.12.0",
     "eslint-plugin-react": "^7.9.1"
   }
