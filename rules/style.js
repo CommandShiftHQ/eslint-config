@@ -361,7 +361,7 @@ module.exports = {
     'operator-linebreak': ['off'],
 
     // disallow padding within blocks
-    'padded-blocks': ['off'],
+    'padded-blocks': ['error', 'never'],
 
     // Require or disallow padding lines between statements
     // https://eslint.org/docs/rules/padding-line-between-statements
