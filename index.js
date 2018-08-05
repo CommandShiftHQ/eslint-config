@@ -15,7 +15,12 @@ module.exports = {
   ].map(require.resolve),
   overrides: [
     {
-      files: ['**/*.test.js'],
+      files: [
+        '**/*.test.js',
+        '**/*.spec.js',
+        '**/*.test.jsx',
+        '**/*.spec.jsx',
+      ],
       env: {
         jest: true,
       },
